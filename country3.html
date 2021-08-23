@@ -1,0 +1,463 @@
+<html lang="en">
+  <head>
+    <title>Country States</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="custom.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <style>
+      .blue-color {
+        color: blue;
+      }
+      .green-color {
+        color: green;
+      }
+      .teal-color {
+        color: teal;
+      }
+      .yellow-color {
+        color: yellow;
+      }
+      .red-color {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container autocontent">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+        style="padding-left: 10vw"
+      >
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">USA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#country2.html">Country2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#country3.html">Country3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#country4.html">Country4</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#country5.html">Country5</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Status and Label Part-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-6">
+            <h1 class="">COUNTRY:United State</h1>
+          </div>
+          <div
+            class="col-md-3"
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+              flex-wrap: nowrap;
+              flex-direction: row;
+            "
+          >
+            Status:
+            <span class="iconify" data-icon="bi:check-circle"></span>
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="flexSwitchCheckChecked"
+                checked
+              />
+            </div>
+            <div class="spinner-border" role="status" style="padding: 2vh">
+              <span class="sr-only"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Line-->
+      <hr size="8" width="90%" color="blue" />
+      <!--Logo Part-->
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <h2>T-Mobile(Network1)</h2>
+        </div>
+      </div>
+
+      <!--AutoRemit-->
+      <div
+        class="col-md-5"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          flex-wrap: nowrap;
+          flex-direction: row;
+          padding-left: 0.5vw;
+        "
+      >
+        <div class="col-md-3">AutoRemit:</div>
+        <span class="iconify" data-icon="bi:check-circle"></span>
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="flexSwitchCheckChecked"
+            checked
+          />
+        </div>
+        <div class="spinner-border" role="status" style="padding: 2vh">
+          <span class="sr-only"></span>
+        </div>
+      </div>
+      <hr size="4" width="90%" color="black" />
+      <!--Network Status-->
+      <div class="row">
+        <div
+          class="col-md-5"
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+            flex-direction: row;
+          "
+        >
+          <div class="col-md-3">Network Status:</div>
+          <span class="iconify" data-icon="bi:check-circle"></span>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="flexSwitchCheckChecked"
+              checked
+            />
+          </div>
+          <div class="spinner-border" role="status" style="padding: 2vh">
+            <span class="sr-only"></span>
+          </div>
+        </div>
+      </div>
+      <hr size="4" width="90%" color="black" />
+      <!--Phone Table Part-->
+      <div class="row">
+        <div>Phones</div>
+        <div style="padding-left: 2vw">
+          <table class="table table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Phone#</th>
+                <th scope="col">Status</th>
+                <th scope="col">Balance</th>
+                <th scope="col">Date Balance</th>
+                <th scope="col">Date Used</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">11-22-33-44</th>
+                <td style="display: flex; align-items: center">
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="flexSwitchCheckChecked"
+                      checked
+                    />
+                  </div>
+                  <div
+                    class="spinner-border"
+                    role="status"
+                    style="padding: 2vh"
+                  >
+                    <span class="sr-only"></span>
+                  </div>
+                </td>
+                <td>5 666 878</td>
+                <td>2021/05/01 18:55:00</td>
+                <td>2021/05/01 18:55:00</td>
+              </tr>
+              <tr>
+                <th scope="row">11-22-33-44</th>
+                <td style="display: flex; align-items: center">
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="flexSwitchCheckChecked"
+                      checked
+                    />
+                  </div>
+                  <div
+                    class="spinner-border"
+                    role="status"
+                    style="padding: 2vh"
+                  >
+                    <span class="sr-only"></span>
+                  </div>
+                </td>
+                <td>5 666 878</td>
+                <td>2021/05/01 18:55:00</td>
+                <td>2021/05/01 18:55:00</td>
+              </tr>
+              <tr>
+                <th scope="row">11-22-33-44</th>
+                <td style="display: flex; align-items: center">
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="flexSwitchCheckChecked"
+                      checked
+                    />
+                  </div>
+                  <div
+                    class="spinner-border"
+                    role="status"
+                    style="padding: 2vh"
+                  >
+                    <span class="sr-only"></span>
+                  </div>
+                </td>
+                <td>5 666 878</td>
+                <td>2021/05/01 18:55:00</td>
+                <td>2021/05/01 18:55:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <hr size="4" width="90%" color="black" />
+      <!--Notification Part-->
+      <div class="row">
+        <div>Notification</div>
+        <div>
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                Home
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                Profile
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <div class="contain">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Network Status (false/true)
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <a class="dropdown-item" href="#">true</a>
+                        <a class="dropdown-item" href="#">false</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Type (danger)
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <a class="dropdown-item" href="#">true</a>
+                        <a class="dropdown-item" href="#">false</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >Header</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                      />
+                      <div id="emailHelp" class="form-text">
+                        This is header code.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputbody" class="form-label"
+                        >Body</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleInputBody"
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputfooter" class="form-label"
+                        >Footer</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleInputfooter"
+                      />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              b
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-primary" type="button">
+            Save
+            <span
+              class="spinner-border spinner-border-sm"
+              role="status"
+              aria-hidden="true"
+            ></span>
+          </button>
+        </div>
+
+        <hr size="4" width="90%" color="black" />
+        <!--Prefix-->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1">Prefix</div>
+            <div class="col-md-5">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+                aria-describedby="addon-wrapping"
+              />
+            </div>
+            <div class="col-md-3">
+              <button class="btn btn-primary" type="button">
+                Save
+                <span
+                  class="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <hr size="8" width="90%" color="blue" />
+
+        <!--Footer part-->
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <p>Version(Network 2)</p>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+            flex-direction: row;
+          "
+        >
+          Status:
+          <span class="iconify" data-icon="bi:check-circle"></span>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="flexSwitchCheckChecked"
+              checked
+            />
+          </div>
+          <div class="spinner-border" role="status" style="padding: 2vh">
+            <span class="sr-only"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
